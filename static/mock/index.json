@@ -1,0 +1,140 @@
+{
+  "ret":true,
+  "data":{
+    "city":"上海",
+    "swiperList": [
+      {"id": 1, "imgUrl": "http://img1.qunarzz.com/piao/fusion/1809/12/856f100069809e02.jpg_750x200_e3485a2b.jpg"},
+      {"id": 2, "imgUrl": "http://img1.qunarzz.com/piao/fusion/1812/2f/49f6152a86eb4502.jpg_750x200_f4841fa3.jpg"},
+      {"id": 3, "imgUrl": "http://img1.qunarzz.com/piao/fusion/1811/f7/72ce947f4dff4c02.jpg_750x200_aa583dba.jpg"},
+      {"id": 4, "imgUrl": "http://img1.qunarzz.com/piao/fusion/1810/af/30ffcf34e9819f02.jpg_750x200_736b7236.jpg"}
+    ],
+    "iconsList": [
+      {
+        "id": 1001,
+        "desc": "景点门票",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png"
+      },
+      {
+        "id": 1002,
+        "desc": "一日游",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1804/5a/13ceb38dcf262f02.png"
+      },
+      {
+        "id": 1003,
+        "desc": "北京必游",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1804/ff/fdf170ee89594b02.png"
+      },
+      {
+        "id": 1004,
+        "desc": "帝都范儿",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/20/831d62d2e1c7be02.png"
+      },
+      {
+        "id": 1005,
+        "desc": "动植物园",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/76/eb88861d78fb9902.png"
+      },
+      {
+        "id": 1006,
+        "desc": "故宫",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/6c/9e54a8540fee0102.png"
+      },
+      {
+        "id": 1007,
+        "desc": "名胜古迹",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/20/831d62d2e1c7be02.png"
+      },
+      {
+        "id": 1008,
+        "desc": "北京滑雪",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/fc/b10a6b2e4f0fe102.png"
+      },
+      {
+        "id": 1009,
+        "desc": "名胜古迹",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/76/eb88861d78fb9902.png"
+      },
+      {
+        "id": 1010,
+        "desc": "一日游",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/76/eb88861d78fb9902.png"
+      }
+    ],
+    "recommendList": [
+      {
+        "id": 1001,
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1712/95/95f38f28a6ff19cba3.img.jpg_200x200_af967e35.jpg",
+        "title": "水奥雪世界",
+        "desc": "冰上的漂移车很好玩，刚开始还不太会，后来越要越好玩，哈哈，雪圈要雪滑梯，雪域飞碟，除了上坡比较累，玩的时候很刺激哇，下坡时候还能连在一起往下走，除了雪世界，外面还有很大的地方，也可以去溜达溜达，挺幽静，就是有点冷，哈哈，多穿点大家"
+      },
+      {
+        "id": 1002,
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1511/d2/d2aec2dfc5aa771290.water.jpg_200x200_69e4a80d.jpg",
+        "title": "南山滑雪场",
+        "desc": "北京市密云县河南寨镇圣水头村"
+      },
+      {
+        "id": 1003,
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_200x200_1bc99086.jpg",
+        "title": "故宫",
+        "desc": "北京市东城区景山前街4号"
+      },
+      {
+        "id": 1004,
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1411/43/dea8b51719a4a69b68777baa68c146e4.water.jpg_200x200_8da8cebe.jpg",
+        "title": "春晖园温泉度假村",
+        "desc": "北京市顺义区高丽营镇于庄"
+      },
+      {
+        "id": 1005,
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/201303/04/50b65ba27d711f92c8d65eac.jpg_200x200_633f68b7.jpg",
+        "title": "小汤山温泉度假区",
+        "desc": "北京市昌平区小汤山现代农业科技示范园内"
+      },
+      {
+        "id": 1006,
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1601/6c/6cf2f668c00ec54190.water.jpg_200x200_e7e22494.jpg",
+        "title": "龙熙温泉",
+        "desc": "北京市大兴区庞各庄镇顺景路8号"
+      },
+      {
+        "id": 1007,
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1507/36/ce3d2d6c9ab44d67ae68d940b8781829.water.jpg_200x200_0938a8f2.jpg",
+        "title": "北京野生动物园",
+        "desc": "北京市大兴区一零六国道"
+      }
+    ],
+    "weekendList": [
+      {
+        "id": 1001,
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1811/f3/86173f863bef61.jpg_r_640x214_52b003ac.jpg",
+        "title": "京城周末撒欢",
+        "desc": "在帝都过周末，不仅仅是城中游！"
+      },
+      {
+        "id": 1002,
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1510/6e/1ea71e2f04e.jpg_r_640x214_aa6f091d.jpg",
+        "title": "京城有好泉",
+        "desc": "细数北京温泉，温暖你的冬天"
+      },
+      {
+        "id": 1003,
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1811/7e/476589267ebb41.jpg_r_640x214_bf599709.jpg",
+        "title": "京城溜娃必去",
+        "desc": "德智体美劳全面发展的亲子日，这些地方该去看看…"
+      },
+      {
+        "id": 1004,
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1505/aa/7baaf8a851d221.jpg_r_640x214_1431200f.jpg",
+        "title": "帝都必打卡",
+        "desc": "来北京必去的景点非这些地方莫属"
+      },
+      {
+        "id": 1005,
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1505/9e/21df651e19af5d.jpg_r_640x214_3ea5bb38.jpg",
+        "title": "寻找北京的皇城范儿",
+        "desc": "数百年的宫廷庙宇，至今依旧威严霸气"
+      }
+    ]
+  }
+}
