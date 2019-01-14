@@ -5,22 +5,22 @@
         <div class="title border-topbottom">当前城市</div>
         <div class="button-list">
           <div class="button-wrapper">
-            <div class="button">北京</div>
+            <div class="button">{{this.currentcity}}</div>
           </div>
         </div>
       </div>
       <div class="area">
         <div class="title border-topbottom">热门城市</div>
         <div class="button-list">
-          <div class="button-wrapper" v-for="item in hotcityList" :key="item.id">
+          <div class="button-wrapper" v-for="item in hotcityList" :key="item.id" @click="handleCityClick(item.name)">
             <div class="button">{{item.name}}</div>
           </div>
         </div>
       </div>
-      <div class="area" v-for="(item, key) in citys" :key="key">
+      <div class="area" v-for="(item, key) in citys" :key="key" :ref="key">
         <div class="title border-topbottom">{{key}}</div>
         <div class="item-list">
-          <div class="item border-bottom" v-for="list in item" :key="list.id">{{list.name}}</div>
+          <div class="item border-bottom" @click="handleCityClick(list.name)" v-for="list in item" :key="list.id">{{list.name}}</div>
         </div>
       </div>
     </div>
@@ -28,11 +28,33 @@
 </template>
 <script>
 import BScroll from 'better-scroll'
+import {mapState, mapActions} from 'vuex'
 export default {
   name: 'CityList',
+  computed: {
+    ...mapState({
+      currentcity: 'city'
+    })
+  },
   props: {
     hotcityList: Array,
-    citys: Object
+    citys: Object,
+    letter: String
+  },
+  methods: {
+    handleCityClick (city) {
+      this.changeCity(city)
+      this.$router.push('/')
+    },
+    ...mapActions(['changeCity'])
+  },
+  watch: {
+    letter () {
+      if (this.letter) {
+        const element = this.$refs[this.letter][0]
+        this.scroll.scrollToElement(element)
+      }
+    }
   },
   mounted () {
     this.scroll = new BScroll(this.$refs.wrapper)

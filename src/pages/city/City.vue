@@ -1,9 +1,9 @@
 <template>
   <div>
     <city-header></city-header>
-    <city-search></city-search>
-    <city-list :citys="citys" :hotcityList="hotcityList"></city-list>
-    <city-alphabet :citys="citys"></city-alphabet>
+    <city-search :citys="citys"></city-search>
+    <city-list :citys="citys" :hotcityList="hotcityList" :letter="letter"></city-list>
+    <city-alphabet :citys="citys" @change="handleLetterClick"></city-alphabet>
   </div>
 </template>
 <script>
@@ -23,7 +23,8 @@ export default {
   data () {
     return {
       hotcityList: [],
-      citys: {}
+      citys: {},
+      letter: ''
     }
   },
   methods: {
@@ -38,6 +39,9 @@ export default {
         this.citys = data.cities
         console.dir(data)
       }
+    },
+    handleLetterClick (letter) {
+      this.letter = letter
     }
   },
   created () {

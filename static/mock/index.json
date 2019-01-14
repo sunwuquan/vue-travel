@@ -1,7 +1,6 @@
 {
   "ret":true,
   "data":{
-    "city":"上海",
     "swiperList": [
       {"id": 1, "imgUrl": "http://img1.qunarzz.com/piao/fusion/1809/12/856f100069809e02.jpg_750x200_e3485a2b.jpg"},
       {"id": 2, "imgUrl": "http://img1.qunarzz.com/piao/fusion/1812/2f/49f6152a86eb4502.jpg_750x200_f4841fa3.jpg"},
